@@ -1,0 +1,32 @@
+h1 {
+  color: grey;
+  font-size: 72px;
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+h2 {
+  color: grey;
+  font-size: 48px;
+}
+
+.block {
+  background-color: black;
+}
+.block h3 {
+  color: grey;
+}
+.block_color {
+  background-color: #fff;
+}
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+.block .block_color {
+  color: grey;
+}/*# sourceMappingURL=style_3.min.css.map */

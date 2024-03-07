@@ -1,0 +1,45 @@
+/* line 8, ../../Desktop/Frontend/Project-3/src/sass/style_3.sass */
+h1 {
+  color: grey;
+  font-size: 72px;
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 12, ../../Desktop/Frontend/Project-3/src/sass/style_3.sass */
+h2 {
+  color: grey;
+  font-size: 48px;
+}
+
+/* line 15, ../../Desktop/Frontend/Project-3/src/sass/style_3.sass */
+.block {
+  background-color: black;
+}
+
+/* line 17, ../../Desktop/Frontend/Project-3/src/sass/style_3.sass */
+.block h3 {
+  color: grey;
+}
+
+/* line 19, ../../Desktop/Frontend/Project-3/src/sass/style_3.sass */
+.block_color {
+  background-color: #fff;
+}
+
+/* line 21, ../../Desktop/Frontend/Project-3/src/sass/style_3.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 23, ../../Desktop/Frontend/Project-3/src/sass/style_3.sass */
+.block .block_color {
+  color: grey;
+}
+
+/*# sourceMappingURL=style_3.css.map */

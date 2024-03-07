@@ -1,0 +1,104 @@
+@media (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-right: 20px
+        .menu_link
+            font-size: 8px
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 30px
+
+
+@media (max-width: 991px)
+    .subheader 
+        .subheader_btn
+            margin-left: 50%
+            margin-top: 27px
+            width: 100px
+            height: 20px
+            font-size: 7px
+
+    .reasons_block
+        flex-direction: column
+        align-items: center
+        
+    
+    .reasons_descr
+        width: 90px
+        margin-top: 20px
+
+
+
+
+@media (max-width: 767px)
+    .menu
+        position: absolute
+        flex-flow: column
+        justify-content: left
+        top: 0
+        right: -27%
+        width: 30%
+        height: 80vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0,0.8)
+        cursor: pointer
+        &:active
+            right: 0.1%
+        .menu_item
+            margin: 5px
+            padding-right: 0
+            border: none
+        .menu_link 
+            font-size: 10px
+      
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: white
+            margin-bottom: 2px
+            cursor: pointer
+        &:active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+        .subheader_phone
+            font-size: 13px
+            color: #fff
+            text-align: right
+    .promo
+        .promo_header
+            font-size: 22px
+        .promo_subheader
+            font-size: 18px
+        .promo_descr
+            font-size: 15px
+        
+
+@media (max-width: 575px)
+    .subheader
+        &_oficial
+            display: none
+        .subheader_logo
+            display: flex
+            justify-content: space-between
+            height: 25%  

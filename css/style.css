@@ -1,0 +1,416 @@
+/* line 7, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+* {
+  font-family: Roboto, sans-serif;
+}
+
+/* line 9, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+header {
+  position: relative;
+}
+
+/* line 11, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+nav {
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+}
+
+/* line 17, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+  z-index: 1;
+}
+
+/* line 24, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.menu .menu_link {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* line 28, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;  
+}
+
+
+/* line 31, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  margin-top: 50px;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 38, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 42, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.subheader .subheader_oficial {
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 6px;
+}
+
+/* line 49, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.subheader .subheader_call {
+  display: block;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 56, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 65, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.subheader .subheader_btn {
+  display: block;
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  padding: 15px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 3, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 82, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/01_invite_drivers.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 86, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.promo .promo_header {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 700                                                                  00;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+/* line 93, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.promo .promo_subheader {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 700                                                                  00;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+}
+
+/* line 102, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.promo .promo_descr {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 109, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 3, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 125, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 128, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.reasons_advantages {
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+  width: 115px;
+  min-height: 27px;
+  margin-top: 25px;
+  font-size: 11px;
+  background-color: black;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+/* line 141, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.reasons_8 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 36px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* line 150, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin-top: 35px;
+}
+
+/* line 155, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 50%;
+  width: 116px;
+  height: 116px;
+  background-color: #1EACC7;
+  margin-right: 26px;
+}
+
+/* line 166, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.reasons_block .reasons_descr {
+  width: 341px;
+}
+
+/* line 168, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.reasons_block .reasons_descr .reasons_text {
+  font-size: 17px;
+  font-weight: 300;
+  color: black;
+}
+
+/* line 172, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.text_blue {
+  color: #1EACC7;
+}
+
+/* line 176, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.subtitle {
+  display: block;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
+
+/* line 184, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/bg/03_mobile_app.jpg") center center/cover no-repeat;
+}
+
+/* line 188, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 190, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 197, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item_1 {
+  background: url("../icons/03_01_order-1-click.png") center center/cover no-repeat;
+}
+
+/* line 199, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item_2 {
+  background: url("../icons/03_02_supply.png") center center/cover no-repeat;
+}
+
+/* line 201, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item_3 {
+  background: url("../icons/03_03_transparet_prices.png") center center/cover no-repeat;
+}
+
+/* line 203, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item_4 {
+  background: url("../icons/03_04_cashless_payment.png") center center/cover no-repeat;
+}
+
+/* line 205, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item_5 {
+  background: url("../icons/03_05_feedback.png") center center/cover no-repeat;
+}
+
+/* line 207, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item_6 {
+  background: url("../icons/03_06_split-the-cost.png") center center/cover no-repeat;
+}
+
+/* line 209, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item_subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 215, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 29px;
+  height: 29px;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* line 232, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.black_rect {
+  position: absolute;
+  width: 100%;
+  height: 502px;
+  background-color: black;
+}
+
+/* line 238, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.possib_button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+  width: 115px;
+  min-height: 27px;
+  margin-top: 35px;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #fff;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+/* line 252, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.choise_title {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 36px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* line 261, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.choise_subtitle {
+  display: block;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 269, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.car_background {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* line 273, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.text_undercar {
+  display: block;
+  margin: 0 auto;
+  margin: -200px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 282, ../../Desktop/Frontend/Project-3/src/sass/style.sass */
+.backgrond_mesh {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background: url("../img/bg/04_bg.jpg") center center/cover no-repeat;
+  margin-top: -205px;
+}
+
+/*# sourceMappingURL=style.css.map */
